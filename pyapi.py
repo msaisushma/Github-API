@@ -14,7 +14,7 @@ def get_comments():
 	resp = json.loads(res)
 
 	pload = [li['payload']for li in resp]
-	payload = pload[0]
+	payload = pload[3]
 	# print payload
 
 	for k,v in payload.items():
